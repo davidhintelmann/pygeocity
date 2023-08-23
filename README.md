@@ -61,8 +61,8 @@ One can also enter a list of multiple latitudes and longitudes into the `search`
     pip install pygeocity
     pip3 install pygeocity
 
-And make sure you install version 0.1.2
+Make sure you install version 0.1.3
 
 Use:
 
-    pip install pygeocity==0.1.2
+    pip install pygeocity==0.1.3
