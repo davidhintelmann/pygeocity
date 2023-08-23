@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pygeocity"
+version = "0.1"
+authors = [
+  { name="David Hintelmann", email="David Hintelmann" },
+]
+description = "This package will take a latitude and longitude coordinate which will return the country, city name, alternate name(s), population, timezone, and exact coordinates of the city."
+readme = "README.md"
+requires-python = ">=3.11.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/davidhintelmann/pygeocity"
+"Bug Tracker" = "https://github.com/davidhintelmann/pygeocity/issues"
