@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "pygeocity"
 version = "0.1"
 authors = [
-  { name="David Hintelmann", email="David Hintelmann" },
+  { name="David Hintelmann", email="davidhin@mac.com" },
 ]
 description = "This package will take a latitude and longitude coordinate which will return the country, city name, alternate name(s), population, timezone, and exact coordinates of the city."
 readme = "README.md"
