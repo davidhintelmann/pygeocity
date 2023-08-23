@@ -15,8 +15,8 @@ This package only has one function `search` and it has a single parameter `coord
 
 Enter latitude and longitude into the `search` function, as a list, to get your results.
 
-    >>> import pygeocity
-    >>> pygeocity.search([11.85812, -86.23922])
+    >>> import geonames
+    >>> geonames.search([11.85812, -86.23922])
 
     Outputs:
         {
@@ -37,7 +37,7 @@ Enter latitude and longitude into the `search` function, as a list, to get your 
 
 One can also enter a list of multiple latitudes and longitudes into the `search` function to get your results.
 
-    >>> pygeocity.search([11.85812, -86.23922],[12.4825, -87.17304])
+    >>> geonames.search([[11.85812, -86.23922],[12.4825, -87.17304]])
 
     Outputs:
         {
@@ -58,7 +58,11 @@ One can also enter a list of multiple latitudes and longitudes into the `search`
 
 ## Install
 
-**Warning:** package data is not yet uploaded correctly, can not install with pip.
-
     pip install pygeocity
     pip3 install pygeocity
+
+And make sure you install version 0.1.2
+
+Use:
+
+    pip install pygeocity==0.1.2

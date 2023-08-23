@@ -1,3 +1,10 @@
 # ignore the dist directory
 dist/
 dist-?.?/
+dist-?.?.?/
+
+# ignore the old setup.py file
+setup/
+
+#ignore egg-info
+pygeocity.egg-info/
