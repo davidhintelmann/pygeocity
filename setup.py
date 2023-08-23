@@ -2,8 +2,8 @@ from distutils.core import setup
 
 setup(
     name='pygeocity',
-    version='0.1',
-    packages=['pygeocity','geonames'],
+    version='0.1.1',
+    packages=['pygeocity','pygeocity.geonames'],
     package_dir={'pygeocity': '.'},  # look for package contents in current directory
     package_data={'pygeocity': ['geonames/geonames.csv']},
     author='David Hintelmann',
