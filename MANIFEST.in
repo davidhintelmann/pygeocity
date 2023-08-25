@@ -1,1 +1,6 @@
 include geonames/geonames.csv
+exclude dev.ipynb
+exclude dist
+exclude dist-0.1.2
+exclude dist-0.1.3
+exclude dist-0.2.0

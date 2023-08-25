@@ -3,8 +3,11 @@ dist/
 dist-?.?/
 dist-?.?.?/
 
-# ignore the old setup.py file
-setup/
-
-#ignore egg-info
+# ignore egg-info
 pygeocity.egg-info/
+
+# ignore jupyter file
+dev.ipynb
+
+# ignore any pycache
+__pycache__/
